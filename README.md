@@ -1,40 +1,62 @@
-# Super-Store-Sales-Data-Analysis (Interactive Dashboard creation using MS Excel)
-## Project Objective
-The Vrinda Store wants to create an annual sales report for 2022. So that, the owner of the Vrinda store can understand their customers and grow more sales in 2023 & 2024.
 
-## Dataset used
-- <a href="https://github.com/ritikbh193/Data-Analysis-Dashboard/blob/main/Vrinda%20Data%20Analysis2.xlsx">Dataset</a>
+---
 
-## Questions (KPIs)
-- Compare the sales and orders using single chart.
-- Which month got the highest sales and orders?
-- Who purchased more - Men or Women?
-- What are different order status in 2022?
-- List top 10 states contributingto the sales?
-- Relation between age and gender based on number of orders.
-- Which Channel is contributing maximum to the sales?
-- Highest selling category?
-- Percentage of Total Orders delivered
+## 🔷 Super-Store Sales Data Analysis – Power BI Interactive Dashboard
 
-- Dashboard Interaction <a href="https://github.com/ritikbh193/Data-Analytics-with-Excel/blob/main/Dashboard_Image.png">View Dashboard</a>
+**📝 Objective:**
+Analyze sales performance of a U.S.-based Super Store using Power BI dashboard to uncover insights by region, segment, category, and other business dimensions for informed decision-making.
 
-## Process
-- Verify data for any missing values and anomalies, and sort out the same.
-- Made sure data is consistent and clean with respect to data type, data format and values used.
-- Created pivot tables according to the questions asked.
-- Merge all pivot tables into one dashboard and apply slicer to make dynamic.
+**📁 Dataset Used:**
 
-## Dashboard
+* `SuperStore Sales DataSet.xlsx` (Excel format)
 
-![Screenshot (495)](https://github.com/user-attachments/assets/17a62479-5cdc-4be7-9373-f264201d276e)
+---
 
-## Project Insight
-- Women customers are more likely to buy products compared to men (~65%).
-- The states of Maharashtra, Karnataka and Uttar Pradesh are the top 3 product buyers.
-- The adult age group (30-49 yrs) is max contributing (~50%) and buys the most products.
-- The maximum number of products customer orders from Amazon, Flipkart and Myntra channels.
-- More than 90% of the products delivered
+### 📊 Dashboard KPIs & Visuals:
 
-## Final Conclusion:
-To improve the sales of Vrinda Store, a strategic marketing plan focused on women aged 30-49 years residing in Maharashtra, Karnataka, and Uttar Pradesh should be implemented. This demographic represents a key consumer segment, as they often make significant household and lifestyle purchases. The approach should include targeted digital marketing campaigns and personalized promotions to capture their attention.
+| **Metric**                    | **Details / Insights**                                                                 |
+| ----------------------------- | -------------------------------------------------------------------------------------- |
+| **Total Sales**               | **\$329.78K**                                                                          |
+| **Total Profit**              | **\$32.40K**                                                                           |
+| **Top Year by Sales**         | **2020** (approx. 50K+ sales)                                                          |
+| **Sales by Region**           | - **West:** 109.6K (33.26%)  <br> - **East:** 96.13K (29.2%) <br> - **Central:** 45.7K |
+| **Sales by Segment**          | - **Consumer:** 51% <br> - Corporate: 33% <br> - Home Office: 17%                      |
+| **Sales by Ship Mode**        | - **Standard Class** dominates, followed by Second Class                               |
+| **Sales by Category**         | - Top: **Technology**, **Office Supplies**, **Furniture**                              |
+| **Sales by Sub-Category**     | - Highest: **Phones**, followed by **Binders**, **Chairs**                             |
+| **Sales vs. Profit by Month** | Sales & profits peak in **January**, then decline sharply                              |
+| **Sales by Payment Mode**     | - **Cards:** 24% <br> - **COD:** 42% <br> - **Online:** 34%                            |
+
+---
+
+### ⚙️ Process Followed:
+
+* Imported and cleaned raw dataset in Power BI
+* Handled missing values, standardized formats, and removed duplicates
+* Created **measures** for dynamic KPIs (e.g., total sales, total profit)
+* Used **DAX formulas** for cumulative sales, segment-wise and region-wise comparisons
+* Developed interactive visuals (bar charts, pie charts, line graphs)
+* Enabled filtering by **Region**, **Year**, **Segment**, and **Category**
+
+---
+
+### 🧠 Key Insights:
+
+* **West Region** generated the highest revenue (\~33% of total sales)
+* **Consumer segment** is the largest contributor to overall sales
+* **Phones** are the best-performing sub-category
+* **January** was the peak month in both sales and profit
+* **Standard Class** shipping is the most preferred mode
+* **Cash on Delivery (COD)** is the top payment mode (42%)
+
+---
+
+### ✅ Final Recommendations:
+
+* Focus marketing efforts on **consumer segment** in the **West region**
+* Promote **Technology products**, especially **Phones**, using **COD offers**
+* Encourage **Standard Class shipping** to reduce costs and maintain customer preference
+* Leverage **January sales trends** with New Year campaigns
+
+---
 
